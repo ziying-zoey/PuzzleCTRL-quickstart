@@ -41,8 +41,7 @@ runners/run_local.py               # Local pipeline (no EvalPlus)
 runners/run_evalplus.py            # Generate EvalPlus samples (HumanEval/MBPP) w/ method flag
 runners/convert_evalplus_to_mini.py# (Optional) Convert EvalPlus → mini.jsonl
 scripts/plot_frontier.py           # Plot pass@1 vs. cost (tools/time/tokens)
-logs/                              
-slides/puzzleCTRL_2slides.pptx     # 2-slide deck starter
+logs/             
 ```
 
 ---
