@@ -1,0 +1,2 @@
+nohup: ignoring input
+Summary: {"pass_at_1_like": 0.0, "avg_tokens": 0.0, "avg_tool_calls": 6.0, "avg_time_sec": 0.0005245208740234375, "lambda_cost": 0.05, "max_steps": 6, "n_problems": 3}

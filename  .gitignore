@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Logs / caches
+logs/
+*.log
+.cache/
+huggingface/
+hf_cache/
+
+# Big weights
+*.pt
+*.bin
+*.safetensors
+*.model
+*.ckpt
+
+# Misc
+dist/
+build/
+*.egg-info/
+EOF

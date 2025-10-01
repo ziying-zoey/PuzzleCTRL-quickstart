@@ -1,0 +1,4 @@
+# Minimal (you likely already have these — install only what you need)
+# pip install -U evalplus             # for HumanEval/MBPP evaluation
+# pip install -U numpy
+# pip install -U matplotlib            # optional: plot cost-performance curve

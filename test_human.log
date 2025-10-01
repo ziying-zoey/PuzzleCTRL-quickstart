@@ -1,0 +1,9 @@
+nohup: ignoring input
+Load from ground-truth from /home/jiangjunmin/.cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  3.01it/s]164it [00:00, 480.58it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:25,  6.35it/s] 10%|▉         | 16/164 [00:00<00:03, 37.19it/s] 40%|███▉      | 65/164 [00:00<00:00, 148.05it/s] 59%|█████▉    | 97/164 [00:01<00:00, 103.01it/s] 78%|███████▊  | 128/164 [00:01<00:00, 122.60it/s] 95%|█████████▍| 155/164 [00:01<00:00, 148.24it/s]100%|██████████| 164/164 [00:01<00:00, 95.73it/s] 
+humaneval (base tests)
+pass@1:	0.323
+humaneval+ (base + extra tests)
+pass@1:	0.274

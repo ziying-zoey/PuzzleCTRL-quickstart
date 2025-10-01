@@ -1,0 +1,474 @@
+{
+  "dataset": "humaneval_mini.jsonl",
+  "config": {
+    "method": "greedy",
+    "lambda_cost": 0.05,
+    "eps": 0.0001,
+    "tau": 0.98,
+    "max_steps": 12,
+    "budget_tool_calls": 6,
+    "budget_time": null,
+    "quick_test_frac": 0.3,
+    "quick_test_min": 1,
+    "seed": 0
+  },
+  "aggregate": {
+    "pass_at_1_like": 1.0,
+    "avg_tokens": 1355.8,
+    "avg_tool_calls": 10.0,
+    "avg_time_sec": 8.810717039108276,
+    "n_problems": 50
+  },
+  "per_task": [
+    {
+      "task_id": "HumanEval/30",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 10.748518705368042,
+      "tokens": 1130
+    },
+    {
+      "task_id": "HumanEval/31",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 15.475900173187256,
+      "tokens": 1440
+    },
+    {
+      "task_id": "HumanEval/32",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 19.9315128326416,
+      "tokens": 2385
+    },
+    {
+      "task_id": "HumanEval/33",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 11.612901449203491,
+      "tokens": 1550
+    },
+    {
+      "task_id": "HumanEval/34",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.0527164936065674,
+      "tokens": 875
+    },
+    {
+      "task_id": "HumanEval/35",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.0638880729675293,
+      "tokens": 930
+    },
+    {
+      "task_id": "HumanEval/36",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 9.068500995635986,
+      "tokens": 1145
+    },
+    {
+      "task_id": "HumanEval/37",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 15.308225631713867,
+      "tokens": 1535
+    },
+    {
+      "task_id": "HumanEval/38",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 15.626386642456055,
+      "tokens": 1725
+    },
+    {
+      "task_id": "HumanEval/39",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 23.683468103408813,
+      "tokens": 1685
+    },
+    {
+      "task_id": "HumanEval/40",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 11.374885082244873,
+      "tokens": 1600
+    },
+    {
+      "task_id": "HumanEval/41",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.1959359645843506,
+      "tokens": 1260
+    },
+    {
+      "task_id": "HumanEval/42",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.1313729286193848,
+      "tokens": 1095
+    },
+    {
+      "task_id": "HumanEval/43",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 5.943294525146484,
+      "tokens": 1405
+    },
+    {
+      "task_id": "HumanEval/44",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 11.903046369552612,
+      "tokens": 1315
+    },
+    {
+      "task_id": "HumanEval/45",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.839395523071289,
+      "tokens": 750
+    },
+    {
+      "task_id": "HumanEval/46",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 22.45843195915222,
+      "tokens": 2005
+    },
+    {
+      "task_id": "HumanEval/47",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 9.054760932922363,
+      "tokens": 1120
+    },
+    {
+      "task_id": "HumanEval/48",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.6649739742279053,
+      "tokens": 875
+    },
+    {
+      "task_id": "HumanEval/49",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 13.090769052505493,
+      "tokens": 1450
+    },
+    {
+      "task_id": "HumanEval/50",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 6.4509806632995605,
+      "tokens": 1090
+    },
+    {
+      "task_id": "HumanEval/51",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 5.348499298095703,
+      "tokens": 1210
+    },
+    {
+      "task_id": "HumanEval/52",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.6305150985717773,
+      "tokens": 985
+    },
+    {
+      "task_id": "HumanEval/53",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 2.530613899230957,
+      "tokens": 795
+    },
+    {
+      "task_id": "HumanEval/54",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.941176414489746,
+      "tokens": 1285
+    },
+    {
+      "task_id": "HumanEval/55",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 11.236601829528809,
+      "tokens": 1060
+    },
+    {
+      "task_id": "HumanEval/56",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 9.395591735839844,
+      "tokens": 1205
+    },
+    {
+      "task_id": "HumanEval/57",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 11.531333923339844,
+      "tokens": 1255
+    },
+    {
+      "task_id": "HumanEval/58",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.168503999710083,
+      "tokens": 1300
+    },
+    {
+      "task_id": "HumanEval/59",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.1815505027771,
+      "tokens": 1010
+    },
+    {
+      "task_id": "HumanEval/60",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.943281412124634,
+      "tokens": 1080
+    },
+    {
+      "task_id": "HumanEval/61",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 9.434176683425903,
+      "tokens": 1190
+    },
+    {
+      "task_id": "HumanEval/62",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.921165943145752,
+      "tokens": 1100
+    },
+    {
+      "task_id": "HumanEval/63",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 13.407807350158691,
+      "tokens": 1610
+    },
+    {
+      "task_id": "HumanEval/64",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 6.9300150871276855,
+      "tokens": 1270
+    },
+    {
+      "task_id": "HumanEval/65",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 8.655686140060425,
+      "tokens": 1135
+    },
+    {
+      "task_id": "HumanEval/66",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.2910242080688477,
+      "tokens": 1125
+    },
+    {
+      "task_id": "HumanEval/67",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 8.485713005065918,
+      "tokens": 1825
+    },
+    {
+      "task_id": "HumanEval/68",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 15.397224426269531,
+      "tokens": 2485
+    },
+    {
+      "task_id": "HumanEval/69",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 8.690229415893555,
+      "tokens": 1520
+    },
+    {
+      "task_id": "HumanEval/70",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.29605770111084,
+      "tokens": 1280
+    },
+    {
+      "task_id": "HumanEval/71",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 13.375171422958374,
+      "tokens": 1485
+    },
+    {
+      "task_id": "HumanEval/72",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.6523849964141846,
+      "tokens": 1700
+    },
+    {
+      "task_id": "HumanEval/73",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.921590566635132,
+      "tokens": 1460
+    },
+    {
+      "task_id": "HumanEval/74",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 8.10574746131897,
+      "tokens": 1665
+    },
+    {
+      "task_id": "HumanEval/75",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 18.11313009262085,
+      "tokens": 1425
+    },
+    {
+      "task_id": "HumanEval/76",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.015689373016357,
+      "tokens": 1370
+    },
+    {
+      "task_id": "HumanEval/77",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.2885982990264893,
+      "tokens": 1090
+    },
+    {
+      "task_id": "HumanEval/78",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 7.044779062271118,
+      "tokens": 2220
+    },
+    {
+      "task_id": "HumanEval/79",
+      "pass": true,
+      "think_calls": 5,
+      "test_calls": 0,
+      "exec_calls": 5,
+      "time_s": 3.922126531600952,
+      "tokens": 1285
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+nohup: ignoring input
+[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
+       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.58it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.52it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.46it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Summary: {"pass_at_1_like": 1.0, "avg_tokens": 666.6666666666666, "avg_tool_calls": 10.0, "avg_time_sec": 6.070199886957805, "n_problems": 3}
+[OK] Step logs  -> logs/run_unknown_model_greedy_20250930_232339.jsonl
+[OK] Summary    -> logs/summary_unknown_model_greedy_20250930_232339.json
