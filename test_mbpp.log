@@ -1,12 +1,0 @@
-nohup: ignoring input
-[SKIP sig ] Mbpp/4  keys=['task_id', 'prompt', 'entry_point', 'canonical_solution', 'base_input', 'atol', 'plus_input', 'contract', 'assertion']...
-[OK] Wrote 377 MBPP items -> problems/mbpp_mini.jsonl
-[STAT] total=378  miss_sig=1  miss_tests=0  both=0
-[STAT] non-empty test-like keys: {'assertion': 378, 'contract': 378}
-[OK] Problems ready -> problems/mbpp_mini.jsonl
-[RUN] PuzzleCTRL  budget=2
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.58it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.52it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
