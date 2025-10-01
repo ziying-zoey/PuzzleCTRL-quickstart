@@ -1,77 +1,0 @@
-nohup: ignoring input
-[OK] Wrote 50 HumanEval items -> problems/humaneval_mini.jsonl
-[OK] Problems ready -> problems/humaneval_mini.jsonl
-[RUN] PuzzleCTRL  budget=2
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.39it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.41it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 271.16, "avg_tool_calls": 2.0, "avg_time_sec": 1.8479864740371703, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_puzzlectrl_20250930_235130.jsonl
-[OK] Summary    -> logs/summary_unknown_model_puzzlectrl_20250930_235130.json
-[RUN] PuzzleCTRL  budget=4
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.44it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.38it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 271.16, "avg_tool_calls": 2.0, "avg_time_sec": 1.8545105934143067, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_puzzlectrl_20250930_235306.jsonl
-[OK] Summary    -> logs/summary_unknown_model_puzzlectrl_20250930_235306.json
-[RUN] PuzzleCTRL  budget=6
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.58it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.51it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
-'(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=10)"), '(Request ID: 070df2ac-7aa8-47e5-a7f1-32c0d6e1e990)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-Retrying in 1s [Retry 1/5].
-'(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=10)"), '(Request ID: 162f6ce6-c7b7-41d0-a7f3-dccfb21cac40)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-Retrying in 2s [Retry 2/5].
-'(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=10)"), '(Request ID: f3dc7f0d-7e30-4e7f-b8b0-ba6cb7418830)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-Retrying in 4s [Retry 3/5].
-'(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=10)"), '(Request ID: 32085de3-6298-4d70-983f-99d765b1cc1d)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-Retrying in 8s [Retry 4/5].
-'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 756cb2d3-c4fb-4b6d-9327-c4f350ad4d48)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-Retrying in 8s [Retry 5/5].
-'(MaxRetryError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Max retries exceeded with url: /Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f27b44aae90>: Failed to establish a new connection: [Errno 111] Connection refused'))"), '(Request ID: a779d94a-428d-4f0d-8c0e-ce29cd77820e)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/generation_config.json
-'(MaxRetryError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Max retries exceeded with url: /Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f27b7055b10>: Failed to establish a new connection: [Errno 111] Connection refused'))"), '(Request ID: 5fd16ea8-4fd9-4378-a865-de72371d62f9)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py
-Retrying in 1s [Retry 1/5].
-'(MaxRetryError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Max retries exceeded with url: /Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f27b70c48b0>: Failed to establish a new connection: [Errno 111] Connection refused'))"), '(Request ID: cc9851dd-d95c-4df9-8b36-4b2adbcbb915)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py
-Retrying in 2s [Retry 2/5].
-'(MaxRetryError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Max retries exceeded with url: /Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f27b70c4c10>: Failed to establish a new connection: [Errno 111] Connection refused'))"), '(Request ID: 2cf45a1a-cca1-47eb-ac16-1f3f50ab0e66)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py
-Retrying in 4s [Retry 3/5].
-'(MaxRetryError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Max retries exceeded with url: /Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f27b44ab970>: Failed to establish a new connection: [Errno 111] Connection refused'))"), '(Request ID: 7a2bbde3-28ee-4028-bf53-745c996e8679)')' thrown while requesting HEAD https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/main/custom_generate/generate.py
-Retrying in 8s [Retry 4/5].
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 271.16, "avg_tool_calls": 2.0, "avg_time_sec": 3.8448886489868164, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_puzzlectrl_20250930_235443.jsonl
-[OK] Summary    -> logs/summary_unknown_model_puzzlectrl_20250930_235443.json
-[RUN] PuzzleCTRL  budget=10
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.36it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.32it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 271.16, "avg_tool_calls": 2.0, "avg_time_sec": 1.8646173334121705, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_puzzlectrl_20250930_235759.jsonl
-[OK] Summary    -> logs/summary_unknown_model_puzzlectrl_20250930_235759.json
-[RUN] Fixed-5 baseline
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.42it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.41it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 1355.8, "avg_tool_calls": 10.0, "avg_time_sec": 8.733266081809997, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_fixed5_20250930_235937.jsonl
-[OK] Summary    -> logs/summary_unknown_model_fixed5_20250930_235937.json
-[RUN] Greedy baseline
-[WARN] envs.simple_exec.SimpleExecEnv 未找到，将无法使用真实沙箱。
-       需在 controller 内置的 fallback 执行器上运行（更不安全，调试可用）。
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Summary: {"pass_at_1_like": 1.0, "avg_tokens": 1355.8, "avg_tool_calls": 10.0, "avg_time_sec": 8.810717039108276, "n_problems": 50}
-[OK] Step logs  -> logs/run_unknown_model_greedy_20251001_000657.jsonl
-[OK] Summary    -> logs/summary_unknown_model_greedy_20251001_000657.json
-[OK] All runs finished. Summaries are in logs/summary_*.json

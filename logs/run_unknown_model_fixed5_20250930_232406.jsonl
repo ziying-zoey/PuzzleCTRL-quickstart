@@ -1,3 +1,0 @@
-{"task_id": "add_two_numbers", "method": "fixed5", "p_correct": 1.0, "best_value": 3, "think_calls": 5, "test_calls": 0, "exec_calls": 5, "tokens": 615, "tools_used": 10, "time": 8.965214490890503, "steps": []}
-{"task_id": "is_palindrome", "method": "fixed5", "p_correct": 1.0, "best_value": 4, "think_calls": 5, "test_calls": 0, "exec_calls": 5, "tokens": 645, "tools_used": 10, "time": 2.359607219696045, "steps": []}
-{"task_id": "factorial", "method": "fixed5", "p_correct": 1.0, "best_value": 4, "think_calls": 5, "test_calls": 0, "exec_calls": 5, "tokens": 740, "tools_used": 10, "time": 6.756221055984497, "steps": []}
