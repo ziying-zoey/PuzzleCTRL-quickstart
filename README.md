@@ -27,7 +27,11 @@ It decides when to **think**, **execute**, **test**, or **stop**, trading off ex
 - **Budgets**: tool calls / wall time / (optional) tokens
 - **Signals**: predicted vs. observed ΔV, pass ratio, tokens/time used
 - **Outputs**: per-step logs (`.jsonl`) + summaries (`.json`)
-
+<p align="center">
+  <img src="docs/puzzlectrl_overview.png" width="720" alt="PuzzleCTRL overview diagram" />
+  <br/>
+  <em>Figure: Information-Gain–Driven Controller for Code Agents.</em>
+</p>
 ---
 
 ## 🗂 Repository Layout
